@@ -1,0 +1,53 @@
+.background-card {
+  flex-direction: column;
+  display: flex;
+  width: 328px;
+  background-color: #FFF;
+  color: #AAAAAA;
+  border-radius: 0.5rem;
+  /* border: 0.1rem solid; */
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.outgoing {
+  display: flex;
+  flex-direction: column;
+}
+
+.headrs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.list-item-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.list-item {
+  color: #AAAAAA;
+}
+
+.width-8ovw{
+  width: 75%;
+}
+.input-add input{
+  width: 100%;
+}
+.button-add{
+  background-color: #90E7F7;
+  color: #FFFFFF;
+  padding: 0.37rem 0.74rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  border: none;
+  width: 70%;
+}

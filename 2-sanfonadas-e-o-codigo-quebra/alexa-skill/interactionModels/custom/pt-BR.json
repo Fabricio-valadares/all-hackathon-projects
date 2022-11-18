@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "como está para investir hoje",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "Perguntas",
+          "slots": [
+            {
+              "name": "diaRetirar",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "risco",
+              "type": "risco"
+            }
+          ],
+          "samples": [
+            "{risco}",
+            "{diaRetirar}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "alto"
+              }
+            },
+            {
+              "name": {
+                "value": "moderado"
+              }
+            },
+            {
+              "name": {
+                "value": "leve"
+              }
+            }
+          ],
+          "name": "risco"
+        }
+      ]
+    }
+  },
+  "version": "6"
+}
